@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	SMS Perl module
-Summary(pl):	Modu³ Perla SMS
+Summary:	SMS Perl module - sending SMS via various Polish gateways
+Summary(pl):	Modu³ Perla SMS - wysy³anie SMS-ów za po¶rednictwem bramek ró¿nych polskich operatorów GSM
 Name:		perl-SMS
 Version:	0.3.9
 Release:	3
@@ -18,11 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This Perl module provides interface for sending SMS via various
-gateways.
+Polish gateways.
 
 %description -l pl
 Ten modu³ Perla udostêpnia interfejs dla wysy³ania SMS-ów za
-po¶rednictwem ró¿nych bramek.
+po¶rednictwem bramek ró¿nych polskich operatorów GSM.
 
 %prep
 
