@@ -1,19 +1,24 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	SMS perl module
-Summary(pl):	Modu³ perla SMS
+Summary:	SMS Perl module
+Summary(pl):	Modu³ Perla SMS
 Name:		perl-SMS
 Version:	0.3.9
 Release:	1
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://rmb.miech.pl/sms/SMS.pm
-BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	rpm-perlprov >= 4.0.2-104
+BuildRequires:	perl >= 5.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This perl module provides interface for sending SMS via various gateways.
+This Perl module provides interface for sending SMS via various
+gateways.
+
+%description -l pl
+Ten modu³ Perla udostêpnia interfejs dla wysy³ania SMS-ów za
+po¶rednictwem ró¿nych bramek.
 
 %prep
 
