@@ -4,7 +4,7 @@ Summary(pl):	Modu³ Perla SMS - wysy³anie SMS-ów za po¶rednictwem bramek ró¿nych 
 Name:		perl-SMS
 Version:	0.3.9
 Release:	3
-License:	distributable
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://romke.biz/inne/sms/SMS.pm
 # Source0-md5:	371a2a08d99100931c3529fb4e2d05da
