@@ -9,6 +9,9 @@ Group:		Development/Languages/Perl
 Source0:	http://rmb.miech.pl/sms/SMS.pm
 BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl >= 5.6.1
+# for dependency resolving
+BuildRequires:	perl-CGI
+BuildRequires:	perl-libwww
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
