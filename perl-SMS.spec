@@ -3,7 +3,7 @@ Summary:	SMS Perl module - sending SMS via various Polish gateways
 Summary(pl):	Modu³ Perla SMS - wysy³anie SMS-ów za po¶rednictwem bramek ró¿nych polskich operatorów GSM
 Name:		perl-SMS
 Version:	0.3.9
-Release:	3
+Release:	4
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://romke.biz/inne/sms/SMS.pm
