@@ -3,11 +3,11 @@ Summary:	SMS Perl module
 Summary(pl):	Modu³ Perla SMS
 Name:		perl-SMS
 Version:	0.3.9
-Release:	2
+Release:	3
 License:	distributable
 Group:		Development/Languages/Perl
-Source0:	http://rmb.miech.pl/sms/SMS.pm
-# Source0-md5:	a5c6676b5e68f2fdeb5a28be0661dac7
+Source0:	http://romke.biz/inne/sms/SMS.pm
+# Source0-md5:	371a2a08d99100931c3529fb4e2d05da
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 # for dependency resolving
@@ -39,4 +39,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/*
+%{perl_vendorlib}/*
