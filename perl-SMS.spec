@@ -7,6 +7,7 @@ Release:	2
 License:	distributable
 Group:		Development/Languages/Perl
 Source0:	http://rmb.miech.pl/sms/SMS.pm
+# Source0-md5:	a5c6676b5e68f2fdeb5a28be0661dac7
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 # for dependency resolving
