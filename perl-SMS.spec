@@ -1,5 +1,4 @@
 %define		pdir	SMS
-%include	/usr/lib/rpm/macros.perl
 Summary:	SMS Perl module - sending SMS via various Polish gateways
 Summary(pl.UTF-8):	Moduł Perla SMS - wysyłanie SMS-ów za pośrednictwem bramek różnych polskich operatorów GSM
 Name:		perl-SMS
